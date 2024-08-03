@@ -22,7 +22,7 @@ export const Home = () => {
             {/* <li id="profile">
               <i class="fa-solid fa-circle-user"></i>
             </li> 
-            summa*/}
+            */}
             <li>
               <button id="login-btn">Login</button>
             </li>
