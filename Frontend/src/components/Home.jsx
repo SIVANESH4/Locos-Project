@@ -21,7 +21,8 @@ export const Home = () => {
             <li ><a href="#footer" className="navcompo">Contact us</a></li>
             {/* <li id="profile">
               <i class="fa-solid fa-circle-user"></i>
-            </li> */}
+            </li> 
+            summa*/}
             <li>
               <button id="login-btn">Login</button>
             </li>
