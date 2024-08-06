@@ -3,8 +3,9 @@ import "./Home.css";
 import heroImg from "../assets/heroimg.png";
 import userEx from "../assets/userexpi.png";
 import howitworks from "../assets/heroimg5.png";
+import { Link } from "react-router-dom";
 export const Home = () => {
-
+  
   return (
     <>
       {/* Header Section */}
@@ -16,15 +17,15 @@ export const Home = () => {
           <ul className="navbar-compo">
             <li ><a href="#" className="navcompo">Home</a></li>
             <li ><a href="#footer" className="navcompo">About us</a></li>
-            <li ><a href="#" className="navcompo">Services</a></li>
-            <li ><a href="#" className="navcompo">Service Partner</a></li>
+            <Link to="/services" className="navcompo"><li className="scompo">Services</li></Link>
+            <Link to="/sevice-partner" className="navcompo"><li className="scompo">Service Partner</li></Link>
             <li ><a href="#footer" className="navcompo">Contact us</a></li>
             {/* <li id="profile">
               <i class="fa-solid fa-circle-user"></i>
             </li> 
             */}
             <li>
-              <button id="login-btn">Login</button>
+              <Link to="/login" ><button id="login-btn" >Login</button></Link>
             </li>
           </ul>
         </nav>
@@ -49,8 +50,8 @@ export const Home = () => {
         </p>
         <img src={heroImg} alt="" id="heroimage" />
         <div className="cta-btn">
-          <button id="client-btn">Find Freelancers</button>
-          <button id="worker-btn">Post a Job</button>
+          <Link to="/service-partner"><button id="client-btn">Find Freelancers</button></Link>
+          <Link to="/service"><button id="worker-btn">Post a Job</button></Link>
         </div>
       </main>
       {/* Beneficial Section */}
@@ -272,7 +273,6 @@ export const Home = () => {
         <li><a href="#">Home</a></li>
         <li><a href="#footer">About</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">How It Works</a></li>
         <li><a href="#footer">Contact</a></li>
       </ul>
     </div>

@@ -34,7 +34,11 @@
   text-decoration: none;
   color:#1b2e35;
 }
+
 .navcompo:hover {
+  color: #5ae4a8;
+}
+.scompo:hover {
   color: #5ae4a8;
 }
 .navbar-compo li:active {
