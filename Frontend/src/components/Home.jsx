@@ -50,7 +50,7 @@ export const Home = () => {
         </p>
         <img src={heroImg} alt="" id="heroimage" />
         <div className="cta-btn">
-          <Link to="/service-partner"><button id="client-btn">Find Freelancers</button></Link>
+          <Link to="/login"><button id="client-btn">Find Freelancers</button></Link>
           <Link to="/service"><button id="worker-btn">Post a Job</button></Link>
         </div>
       </main>
