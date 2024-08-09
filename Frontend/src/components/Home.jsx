@@ -5,7 +5,6 @@ import userEx from "../assets/userexpi.png";
 import howitworks from "../assets/heroimg5.png";
 import { Link } from "react-router-dom";
 export const Home = () => {
-  
   return (
     <>
       {/* Header Section */}
@@ -15,17 +14,35 @@ export const Home = () => {
             <i class="fa-solid fa-gears"></i> LO<span>COs</span>
           </h3>
           <ul className="navbar-compo">
-            <li ><a href="#" className="navcompo">Home</a></li>
-            <li ><a href="#footer" className="navcompo">About us</a></li>
-            <Link to="/services" className="navcompo"><li className="scompo">Services</li></Link>
-            <Link to="/sevice-partner" className="navcompo"><li className="scompo">Service Partner</li></Link>
-            <li ><a href="#footer" className="navcompo">Contact us</a></li>
+            <li>
+              <a href="#" className="navcompo">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#footer" className="navcompo">
+                About us
+              </a>
+            </li>
+            <Link to="/service" className="navcompo">
+              <li className="scompo">Services</li>
+            </Link>
+            <Link to="/partnersignup" className="navcompo">
+              <li className="scompo">Service Partner</li>
+            </Link>
+            <li>
+              <a href="#footer" className="navcompo">
+                Contact us
+              </a>
+            </li>
             {/* <li id="profile">
               <i class="fa-solid fa-circle-user"></i>
             </li> 
             */}
             <li>
-              <Link to="/login" ><button id="login-btn" >Login</button></Link>
+              <Link to="/login">
+                <button id="login-btn">Login</button>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -50,8 +67,12 @@ export const Home = () => {
         </p>
         <img src={heroImg} alt="" id="heroimage" />
         <div className="cta-btn">
-          <Link to="/login"><button id="client-btn">Find Freelancers</button></Link>
-          <Link to="/service"><button id="worker-btn">Post a Job</button></Link>
+          <Link to="/signup">
+            <button id="client-btn">Find Freelancers</button>
+          </Link>
+          <Link to="/partnersignup">
+            <button id="worker-btn">Post a Job</button>
+          </Link>
         </div>
       </main>
       {/* Beneficial Section */}
@@ -262,42 +283,73 @@ export const Home = () => {
         </div>
       </section>
       <footer id="footer">
-  <div className="footer-content">
-    <div className="footer-section">
-      <h3>About Us</h3>
-      <p>We are dedicated to connecting talented freelancers with clients seeking top-notch services. Our platform ensures a seamless experience for both freelancers and clients through a secure and user-friendly environment</p>
-    </div>
-    <div className="footer-section">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#footer">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#footer">Contact</a></li>
-      </ul>
-    </div>
-    <div className="footer-section">
-      <h3>Contact Us</h3>
-      <ul>
-        <li>Email: <a href="mailto:support@locos.com">support@locos.com</a></li>
-        <li>Phone: 123456789</li>
-        <li>Address: 123 kk nagar, Madurai, India</li>
-      </ul>
-    </div>
-    <div className="footer-section">
-      <h3>Follow Us</h3>
-      <ul className="social-media">
-        <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-        <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-        <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <div className="footer-bottom">
-    <p>&copy; 2024 Locos. All rights reserved.</p>
-  </div>
-</footer>
+        <div className="footer-content">
+          <div className="footer-section">
+            <h3>About Us</h3>
+            <p>
+              We are dedicated to connecting talented freelancers with clients
+              seeking top-notch services. Our platform ensures a seamless
+              experience for both freelancers and clients through a secure and
+              user-friendly environment
+            </p>
+          </div>
+          <div className="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#footer">About</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                Email: <a href="mailto:support@locos.com">support@locos.com</a>
+              </li>
+              <li>Phone: 123456789</li>
+              <li>Address: 123 kk nagar, Madurai, India</li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Follow Us</h3>
+            <ul className="social-media">
+              <li>
+                <a href="#" aria-label="Facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Twitter">
+                  <i class="fa-brands fa-square-x-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; 2024 Locos. All rights reserved.</p>
+        </div>
+      </footer>
     </>
   );
 };

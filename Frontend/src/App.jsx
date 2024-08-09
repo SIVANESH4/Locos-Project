@@ -1,8 +1,9 @@
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom' 
 import { Home } from "./components/Home"
 import {Login} from "./components/Login"
-import {Services} from "./components/Services"
-import {ServicePartner} from "./components/ServicePartner"
+import {Signup} from "./components/Signup"
+import {Service} from "./components/Service"
+import {Partnersignup} from "./components/Partnersignup"
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/login" element={<Login/>}/>
-            <Route path="/services" element={<Services/>}/>
-            <Route path="/service-partner" element={<ServicePartner/>}/>
+            <Route path="/signup" element={<Signup/>}/>
+            <Route path="/service" element={<Service/>}/>
+            <Route path="/servicepartnersignup" element={<Partnersignup/>}/>
       </Routes>
     </Router>
    </>
