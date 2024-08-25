@@ -27,7 +27,7 @@ export const Home = () => {
             <Link to="/service" className="navcompo">
               <li className="scompo">Services</li>
             </Link>
-            <Link to="/partnersignup" className="navcompo">
+            <Link to="/servicepartnersignup" className="navcompo">
               <li className="scompo">Service Partner</li>
             </Link>
             <li>
@@ -58,7 +58,7 @@ export const Home = () => {
           ></i>
         </p>
         <h1>
-          Find the <span>Best Freelancers</span>
+          Find the <span>Best Technicians</span>
         </h1>
         <h1>for Your Needs</h1>
         <p>
@@ -70,7 +70,7 @@ export const Home = () => {
           <Link to="/signup">
             <button id="client-btn">Find Freelancers</button>
           </Link>
-          <Link to="/partnersignup">
+          <Link to="/servicepartnersignup">
             <button id="worker-btn">Post a Job</button>
           </Link>
         </div>
@@ -282,6 +282,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      {/* footer section */}
       <footer id="footer">
         <div className="footer-content">
           <div className="footer-section">

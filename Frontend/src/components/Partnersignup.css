@@ -1,0 +1,70 @@
+/* #5ae4a8 -green
+ #1b2e35-blue*/
+ .partner-main-container{
+    margin:50px 140px;
+    display: flex;
+    background-color:#5ae4a8 ;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.partner-main-container form{
+    background-color: #1b2e35;
+    padding:50px 4rem 40px 80px;
+}
+.partnersignupform h1{
+    background: linear-gradient(to right, #5ae4a8 0%, #3468a3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.partnersignupform{
+    color:white;
+    font-size:smaller;
+}
+.partnersignupform span{
+    color:#5ae4a8;
+}
+.partnersignupform input{
+    margin-bottom: 20px;
+    width: 16rem;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 15px;
+    outline-style: none;
+    border: none;
+}
+.partnersignupform button{
+    background-color: #5ae4a8;
+    color:#1b2e35;
+    border:none;
+    padding:7px 95px 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight:500;
+    letter-spacing: 1px;
+}
+#addresstextarea{
+    margin-bottom: 20px;
+    width: 16rem;
+    padding: 15px;
+    border-radius: 20px;
+    outline-style: none;
+    border: none;
+    resize: none;
+}
+.partner-main-container .img-container h1{
+    color:#1b2e35;
+    font-size: 37px;
+    margin:50px 50px
+}
+#services-drop{
+    margin-bottom: 20px;
+    width: 16rem;
+    height: 2.5rem;
+    padding: 10px;
+    border-radius: 15px;
+    outline-style: none;
+    border: none;
+}

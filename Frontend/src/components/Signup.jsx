@@ -23,7 +23,7 @@ export const Signup = () => {
             <br />
             <label htmlFor="">Address</label>
             <br />
-            <textarea  id="addresstextarea" rows="3" cols="40"></textarea>
+            <textarea  id="addresstextarea" rows="2" cols="40"></textarea>
             <br />
             <label htmlFor="">Pincode</label>
             <br />
