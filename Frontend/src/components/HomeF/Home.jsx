@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import heroImg from "../assets/heroimg.png";
-import userEx from "../assets/userexpi.png";
-import howitworks from "../assets/heroimg5.png";
+import heroImg from "../../assets/heroimg.png";
+import userEx from "../../assets/userexpi.png";
+import howitworks from "../../assets/heroimg5.png";
 import { Link } from "react-router-dom";
 export const Home = () => {
   return (
@@ -27,7 +27,7 @@ export const Home = () => {
             <Link to="/service" className="navcompo">
               <li className="scompo">Services</li>
             </Link>
-            <Link to="/servicepartnersignup" className="navcompo">
+            <Link to="/techsignup" className="navcompo">
               <li className="scompo">Service Partner</li>
             </Link>
             <li>
@@ -36,11 +36,13 @@ export const Home = () => {
               </a>
             </li>
             {/* <li id="profile">
-              <i class="fa-solid fa-circle-user"></i>
-            </li> 
-            */}
+              <Link to="/userdashboard"><i
+                class="fa-solid fa-circle-user"
+              ></i></Link>
+            </li> */}
+
             <li>
-              <Link to="/login">
+              <Link to="/userlogin">
                 <button id="login-btn">Login</button>
               </Link>
             </li>
@@ -67,10 +69,10 @@ export const Home = () => {
         </p>
         <img src={heroImg} alt="" id="heroimage" />
         <div className="cta-btn">
-          <Link to="/signup">
-            <button id="client-btn">Find Freelancers</button>
+          <Link to="/usersignup">
+            <button id="client-btn">Find Technicians</button>
           </Link>
-          <Link to="/servicepartnersignup">
+          <Link to="/techsignup">
             <button id="worker-btn">Post a Job</button>
           </Link>
         </div>
@@ -303,9 +305,11 @@ export const Home = () => {
               <li>
                 <a href="#footer">About</a>
               </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
+              <Link to="/service">
+                <li>
+                  <a href="#">Services</a>
+                </li>
+              </Link>
               <li>
                 <a href="#footer">Contact</a>
               </li>

@@ -1,7 +1,7 @@
 /* #5ae4a8 -green
  #1b2e35-blue*/
  .partner-main-container{
-    margin:50px 140px;
+    margin:1% 10%;
     display: flex;
     background-color:#5ae4a8 ;
     border-radius: 30px;
@@ -53,6 +53,7 @@
     outline-style: none;
     border: none;
     resize: none;
+    overflow-y: scroll;
 }
 .partner-main-container .img-container h1{
     color:#1b2e35;

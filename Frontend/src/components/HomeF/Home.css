@@ -44,10 +44,10 @@
 .navbar-compo li:active {
   color: #5ae4a8;
 }
-/* #profile {
+#profile {
   font-size: 19px;
   margin-bottom: 2px;
-} */
+}
 #login-btn {
   padding: 4px 25px;
   font-family: "Poppins", sans-serif;

@@ -1,0 +1,48 @@
+/* #5ae4a8 -green
+ #1b2e35-blue*/
+ .main-container{
+    display: flex;
+    justify-content: space-around;
+    margin:5.5% 140px;
+    background-color:#5ae4a8 ;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-container form{
+    background-color: #1b2e35;
+    padding:50px 4rem 40px 80px;
+}
+.loginform h1{
+    background: linear-gradient(to right, #5ae4a8 0%, #3468a3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.loginform{
+    color:white;
+    font-size:smaller;
+}
+.loginform span{
+    color:#5ae4a8;
+}
+.loginform input{
+    margin-bottom: 20px;
+    width: 15rem;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 30px;
+    outline-style: none;
+    border: none;
+}
+.loginform button{
+    background-color: #5ae4a8;
+    color:#1b2e35;
+    border:none;
+    padding:7px 100px 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight:500;
+    letter-spacing: 1px;
+}

@@ -21,7 +21,7 @@ export const Service = () => {
             <Link to="/service" className="navcompo">
               <li className="scompo">Services</li>
             </Link>
-            <Link to="/servicepartnersignup" className="navcompo">
+            <Link to="/techsignup" className="navcompo">
               <li className="scompo">Service Partner</li>
             </Link>
             <li>

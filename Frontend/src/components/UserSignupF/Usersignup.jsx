@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import loginimg from "../assets/loginpageimg.png";
-import "./Signup.css";
-export const Signup = () => {
+import loginimg from "../../assets/loginpageimg.png";
+import "./Usersignup.css";
+export const Usersignup = () => {
   return (
     <>
     <body className="Signuppagebody">
@@ -30,11 +30,11 @@ export const Signup = () => {
             <input type="text" />
             <br />
             <br />
-            <Link to="/"><button>Sign Up</button></Link>
+            <Link to="/userlogin"><button>Sign Up</button></Link>
             <br />
             <p>
               Already have an account?{" "}
-              <Link to="/login">
+              <Link to="/userlogin">
                 <span>Login</span>
               </Link>
             </p>

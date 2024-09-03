@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import loginimg from "../assets/loginpageimg.png";
-import "./Login.css";
-export const Login = () => {
+import { Link , useNavigate} from "react-router-dom";
+import loginimg from "../../assets/heroimg2.png";
+import "./Techlogin.css";
+export const Techlogin = () => {
   return (
     <>
     <body className="loginpagebody">
@@ -21,11 +21,11 @@ export const Login = () => {
               Lost Password? <span>click here</span>
             </p>
             <br />
-            <Link to="/"><button>Login</button></Link>
+            <Link to="/techdashboard"><button>Login</button></Link>
             <br />
             <p>
               Don't have an account?{" "}
-              <Link to="/signup">
+              <Link to="/techsignup">
                 <span>Signup</span>
               </Link>
             </p>
