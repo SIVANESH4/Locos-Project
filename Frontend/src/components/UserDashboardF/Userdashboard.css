@@ -1,19 +1,21 @@
 .user-dashboard{
   display: flex;
-  background-color:white;
+  background-color:#fff;
 }
 .sidebar h3{
   margin: 1.4rem;
+  font-weight: 500;
 }
 .sidebar li{
   padding: 1.5rem;
   
 }
 .sidebar ul li.active{
-  background: #5ae4a8;
+  background:#d6f7e4;
   color:#1b2e35;
 }
 .sidebar{
+  position: fixed;
   width:13rem;
   height:100vh;
   border-top-right-radius: 20px;
@@ -21,12 +23,74 @@
   background-color:#1b2e35;
 }
 .sidebar a{
-  color:#5ae4a8;
+  color:#ddd;
   text-decoration: none;
 }
 .sidebar ul{
   margin-top: 20%;
   list-style: none;
-  color:#5ae4a8;
+  color:#ddd;
+}
+/* For service section */
+.services-page-dash {
+  margin-left: 16%;
+  padding: 2rem;
+  text-align: center;
 }
 
+.services-page-dash h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  background: #5ae4a8;
+  background: linear-gradient(to right, #5ae4a8 0%, #3468a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services-grid-dash {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  gap: 1rem; /* Space between boxes */
+  justify-items: center;
+}
+.service-card-dash {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card-dash:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.service-card-dash h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  background: #5ae4a8;
+  background: linear-gradient(to right, #5ae4a8 0%, #3468a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-card-dash p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.service-card-dash button {
+  background-color:#5ae4a8 ;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.service-card-dash button:hover {
+  background-color: #1b2e35;
+}
