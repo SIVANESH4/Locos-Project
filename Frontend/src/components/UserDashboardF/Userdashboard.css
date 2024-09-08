@@ -1,0 +1,32 @@
+.user-dashboard{
+  display: flex;
+  background-color:white;
+}
+.sidebar h3{
+  margin: 1.4rem;
+}
+.sidebar li{
+  padding: 1.5rem;
+  
+}
+.sidebar ul li.active{
+  background: #5ae4a8;
+  color:#1b2e35;
+}
+.sidebar{
+  width:13rem;
+  height:100vh;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color:#1b2e35;
+}
+.sidebar a{
+  color:#5ae4a8;
+  text-decoration: none;
+}
+.sidebar ul{
+  margin-top: 20%;
+  list-style: none;
+  color:#5ae4a8;
+}
+

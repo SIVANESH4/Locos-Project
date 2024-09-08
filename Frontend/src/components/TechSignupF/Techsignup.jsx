@@ -11,23 +11,23 @@ export const Techsignup = () => {
             <h1>Create an Account</h1>
             <label htmlFor="">Email Address</label>
             <br />
-            <input type="text" />
+            <input type="text" required/>
             <br />
             <label htmlFor="">Password</label>
             <br />
-            <input type="password" />
+            <input type="password" required/>
             <br />
             <label htmlFor="">Confirm Password</label>
             <br />
-            <input type="password" />
+            <input type="password" required/>
             <br />
             <label htmlFor="">Phone No</label>
             <br />
-            <input type="text" />
+            <input type="text" required/>
             <br />
             <label htmlFor="">Services You Offer</label>
             <br />
-            <select id="services-drop" name="services">
+            <select id="services-drop" name="services" required>
               <option value="electrical">Electrical</option>
               <option value="plumbing">Plumbing</option>
               <option value="installation">Installation</option>
@@ -43,11 +43,11 @@ export const Techsignup = () => {
             </select><br />
             <label htmlFor="">Address</label>
             <br />
-            <textarea id="addresstextarea" rows="2" cols="40"></textarea>
+            <textarea id="addresstextarea" rows="2" cols="40" required></textarea>
             <br />
             <label htmlFor="">Pincode</label>
             <br />
-            <input type="text" />
+            <input type="text" required/>
             <br />
             <br />
             <Link to="/techlogin">

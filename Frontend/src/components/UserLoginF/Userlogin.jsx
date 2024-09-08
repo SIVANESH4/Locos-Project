@@ -11,11 +11,11 @@ export const Userlogin = () => {
             <h1>Welcome Back</h1>
             <label htmlFor="">Email Address</label>
             <br />
-            <input type="text" />
+            <input type="text" required />
             <br />
             <label htmlFor="">Password</label>
             <br />
-            <input type="password" />
+            <input type="password" required/>
             <br />
             <p>
               Lost Password? <span>click here</span>

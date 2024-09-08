@@ -11,23 +11,23 @@ export const Usersignup = () => {
             <h1>Create an Account</h1>
             <label htmlFor="">Email Address</label>
             <br />
-            <input type="text" />
+            <input type="text" required/>
             <br />
             <label htmlFor="">Password</label>
             <br />
-            <input type="password" />
+            <input type="password" required/>
             <br />
             <label htmlFor="">Confirm Password</label>
             <br />
-            <input type="password" />
+            <input type="password" required/>
             <br />
             <label htmlFor="">Address</label>
             <br />
-            <textarea  id="addresstextarea" rows="2" cols="40"></textarea>
+            <textarea  id="addresstextarea" rows="2" cols="40" required></textarea>
             <br />
             <label htmlFor="">Pincode</label>
             <br />
-            <input type="text" />
+            <input type="text" required/>
             <br />
             <br />
             <Link to="/userlogin"><button>Sign Up</button></Link>
