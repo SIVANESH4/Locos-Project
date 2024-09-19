@@ -35,12 +35,6 @@ export const Home = () => {
                 Contact us
               </a>
             </li>
-            {/* <li id="profile">
-              <Link to="/userdashboard"><i
-                class="fa-solid fa-circle-user"
-              ></i></Link>
-            </li> */}
-
             <li>
               <Link to="/userlogin">
                 <button id="login-btn">Login</button>
